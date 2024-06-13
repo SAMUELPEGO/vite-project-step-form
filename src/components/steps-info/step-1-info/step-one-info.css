@@ -1,0 +1,70 @@
+
+.section-step-one  {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: var(--Marineblue);
+  font-weight: 900;
+}
+.section-step-one header {
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+}
+.section-step-one p,
+.section-step-one input::placeholder {
+  color: var(--textLowOpacity);
+  line-height: 1.5rem;
+}
+.section-step-one form,div {
+  position: relative;
+  width: 100%;
+}
+.section-step-one form input {
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 100%;
+    outline: none;
+    border: 1px solid var(--textLowOpacity);
+    border-radius: .5rem;
+}
+.section-step-one input:hover {
+  border-color: var(--textHighOpacity);
+}
+
+.section-step-one label,.section-step-one span {
+  position: absolute;
+  top: .7rem;
+}
+.section-step-one span {
+  right: 0;
+  color: var(--Strawberryred);
+}
+
+.section-step-one span {
+  visibility: hidden;
+}
+.section-step-one .error-message {
+  visibility: visible;
+}
+.section-step-one .visible {
+  border-color: var(--Strawberryred);
+}
+
+
+.button-change-step-one {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  background: var(--White);
+  margin-top: 8rem;
+  min-width: 100vw;
+ 
+}
+
+.button-change-step-one :nth-child(1) {
+  border: none;
+  padding: .8rem;
+  color: var(--White);
+  background-color: var(--Marineblue);
+  border-radius: .3rem;
+}

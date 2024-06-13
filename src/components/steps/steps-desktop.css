@@ -1,0 +1,57 @@
+@import "../../assets/vars.css";
+
+.steps-desktop {
+  width: 274px;
+  height: 568px;
+  background-image: url(/images/bg-sidebar-desktop.svg);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction:column;
+  padding-top: 2.5rem;
+  gap: 1rem;  
+  font-weight: 900;
+  padding-left: 2rem;
+}
+.steps-desktop div {
+  display: flex;
+  gap: .8rem;
+  align-items: center;
+  height: max-content;
+}
+.steps-desktop span  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--White);
+  padding: 15px;
+  width: 20px;
+  height: 20px;
+  border: 1.7px solid var(--Pastelblue);
+  border-radius: 100%;
+}
+.steps-desktop p {
+  color: hsl(240.81deg 100% 70.78%)
+}
+.steps-desktop strong {
+  color: var(--White);
+}
+.steps-desktop.step0 div:nth-child(1) span {
+  background: var(--Pastelblue);
+  color: var(--Marineblue);
+}
+ .steps-desktop.step1 div:nth-child(2) span {
+  background: var(--Pastelblue);
+  color: var(--Marineblue);
+}
+.steps-desktop.step2 div:nth-child(3) span {
+  background: var(--Pastelblue);
+  color: var(--Marineblue);
+}
+.steps-desktop.step3 div:nth-child(4) span {
+  background: var(--Pastelblue);
+  color: var(--Marineblue);
+}
+.steps-desktop.step4 div:nth-child(4) span {
+  background: var(--Pastelblue);
+  color: var(--Marineblue);
+}

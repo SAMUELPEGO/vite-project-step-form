@@ -1,0 +1,67 @@
+.section-step-for {
+  color: var(--Marineblue);
+  font-weight: 900;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.section-step-for header {
+  font-size: 1.5rem;
+}
+
+.section-step-for div:first-of-type {
+  display: flex;
+  justify-content: space-between;
+}
+.section-step-for hr {
+  width: 100%;
+  border: 1px solid var(--textLowOpacity);
+  
+}
+.button-change-step-four {
+  display: flex;
+  justify-content: space-between !important;
+  padding: 1rem;
+  background: var(--White);
+  margin-top: 8rem;
+  min-width: 100vw;
+}
+.button-change-step-four :nth-child(1) {
+  border: none;
+  color: var(--textLowOpacity);
+}
+.button-change-step-four :nth-child(2) {
+  border: none;
+  padding: 0.8rem;
+  color: var(--White);
+  background-color: var(--Marineblue);
+  border-radius: 0.3rem;
+}
+.section-step-for div:nth-child(5) {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.section-step-for div:nth-child(5) > div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.addon-description,.total-price,.warning-text {
+  color: var(--textLowOpacity);
+}
+.total-price-container {
+  margin-top: 20px;
+}
+.total-price ~ p {
+  font-size:large;
+}
+.change-plan {
+  color: var(--textLowOpacity);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.change-plan:hover {
+  color: var(--Purplishblue);
+}

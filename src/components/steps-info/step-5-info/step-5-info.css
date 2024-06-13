@@ -1,0 +1,23 @@
+
+.section-step-five {
+    color: var(--Marineblue);
+    font-weight: 900;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem .5rem;
+   
+}
+.section-step-five span {
+    font-size: 1.5rem;
+    width: 100%;
+}
+.section-step-five p {
+    line-height: 1.5rem;
+    color: var(--textLowOpacity);
+}
+.section-step-five img {
+    transform: scale(.7);
+}

@@ -1,0 +1,42 @@
+@import "../../assets/vars.css";
+
+.steps-mobile {
+  width: 375px;
+  height: 172px;
+  background-image: url(/images/bg-sidebar-mobile.svg);
+  background-repeat: no-repeat;
+  position:sticky;
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  gap: 1rem;
+  font-weight: 900;
+  z-index: -1;
+}
+.steps-mobile span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--White);
+  padding: 1rem;
+  width: 1rem;
+  height: 1rem;
+  border: 1.7px solid var(--Pastelblue);
+  border-radius: 100%;
+}
+ .steps-mobile.step0 :nth-child(1){
+  background: var(--Pastelblue);
+  color: var(--Marineblue);
+}
+ .steps-mobile.step1 :nth-child(2) {
+  background: var(--Pastelblue);
+  color: var(--Marineblue);
+}
+.steps-mobile.step2 :nth-child(3) {
+  background: var(--Pastelblue);
+  color: var(--Marineblue);
+}
+.steps-mobile.step3 :nth-child(4),.steps-mobile.step4 :nth-child(4) {
+  background: var(--Pastelblue);
+  color: var(--Marineblue);
+}
